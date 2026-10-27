@@ -2,6 +2,8 @@
 
 A working prototype of a free, self-study CAT preparation platform. Two diagnostic mocks measure topic-level accuracy and speed. A rules-based engine classifies 18 topics and ranks them by expected improvement per study hour, and a daily planner turns the ranking into activities that recalibrate the plan as you go.
 
+**Live:** https://patelhari1109-lang.github.io/percentile-path/
+
 ## Run it locally
 
 No build step, no dependencies, no API keys. The app is plain ES modules, so it needs to be served over HTTP rather than opened as a file:
