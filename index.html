@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Percentile Path</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Free, personalised CAT preparation: two diagnostic mocks, a topic-level report and a plan ranked by expected improvement per study hour.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div id="app"><noscript>Percentile Path needs JavaScript to run.</noscript></div>
+<script>
+  // Browsers block ES modules on file:// URLs, which would otherwise leave a blank page.
+  if (location.protocol === 'file:') {
+    document.getElementById('app').innerHTML = '<div style="max-width:640px;margin:48px auto;padding:0 16px;font-family:system-ui,sans-serif;line-height:1.6"><h1 style="font-size:1.5rem">Start a local server to run Percentile Path</h1><p>Browsers block this app’s scripts when the file is opened directly. In a terminal, run:</p><pre style="background:#eee;padding:12px;border-radius:8px;overflow-x:auto">cd ~/projects/cat-compass\npython3 -m http.server 8000</pre><p>Then open <b>http://localhost:8000</b>.</p></div>';
+  }
+</script>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
